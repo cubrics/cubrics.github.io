@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta
+      charset="UTF-8"
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+    <title>Cubrics - About</title>
+    <link rel="stylesheet" type="text/css" href="./stylesheet.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="navigation" id="myNavigation">
+        <a href="https://www.cubrics.co.uk"
+          ><img src="images/logo.png" alt="cubrics logo"
+        /></a>
+        <div class="navigationItems">
+          <div>
+            <a class="navigationButton" href="services.html">Services</a>
+          </div>
+          <div>
+            <a class="navigationButton" href="industries.html">Industries</a>
+          </div>
+          <div>
+            <a class="navigationButton" href="insights.html">Insights</a>
+          </div>
+          <div><a class="navigationButton" href="careers.html">Careers</a></div>
+          <div><a class="navigationButton" href="about.html">About</a></div>
+          <div class="navigationCta">
+            <a href="mailto:contact@cubrics.co.uk"
+              ><button class="primaryButton">Contact</button></a
+            >
+          </div>
+          <a href="javascript:void(0);" onclick="myFunction()"
+            ><span class="material-icons navigationHamburger">menu</span></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="herobanner">
+      <img src="images/hero-banner-shiny-building.png" />
+      <div class="herobannerTextbox">
+        <div class="herobannerText">Careers</div>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="contentHeader">
+        <h3>Graduate programme</h3>
+        <a href="mailto:careers@cubrics.co.uk"
+          ><button class="primaryButton">Apply</button></a
+        >
+      </div>
+      <div class="paragraph">
+        <p>
+          For graduates, we provide a strong foundation for your career in
+          digital transformation through a tailored development plan.
+        </p>
+      </div>
+      <div class="primaryButtonCenter"></div>
+
+      <div class="cards">
+        <div class="cardUSP">
+          <div class="cardUSPIcon">
+            <span class="material-icons md-64">assignment</span>
+            <h5>Assessment</h5>
+          </div>
+          <div class="cardUSPText">
+            <p>
+              Each graduate will be assessed on their chosen field (Programme or
+              Change Management) and the highest performers will be placed based
+              on skillset suitability.
+            </p>
+          </div>
+        </div>
+        <hr class="dividerCard" />
+        <div class="cardUSP">
+          <div class="cardUSPIcon">
+            <span class="material-icons md-64">model_training</span>
+            <h5>Training</h5>
+          </div>
+          <div class="cardUSPText">
+            <p>
+              As we work together, our company’s vision is to ensure you grow
+              with us and accomplish modern practices to deliver the right
+              solution for our clients.
+            </p>
+          </div>
+        </div>
+        <hr class="dividerCard" />
+        <div class="cardUSP">
+          <div class="cardUSPIcon">
+            <span class="material-icons md-64">business</span>
+            <h5>Experience</h5>
+          </div>
+          <div class="cardUSPText">
+            <p>
+              You will be exposed to various roles within our programmes,
+              internally and at clients’ projects.
+            </p>
+          </div>
+        </div>
+        <hr class="dividerCard" />
+        <div class="cardUSP">
+          <div class="cardUSPIcon">
+            <span class="material-icons md-64">approval</span>
+            <h5>Progression</h5>
+          </div>
+          <div class="cardUSPText">
+            <p>
+              Each field has multiple opportunities for progression and our aim
+              is to ensure you flourish in your role.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <hr class="divider" />
+
+      <div class="contentHeader">
+        <h3>Internship</h3>
+        <a href="mailto:careers@cubrics.co.uk"
+          ><button class="primaryButton">Apply</button></a
+        >
+      </div>
+      <div class="paragraph">
+        <p>
+          For interns, we provide short term placements to springboard your
+          career.
+        </p>
+      </div>
+
+      <div class="cardUSP">
+        <div class="cardUSPIcon">
+          <img src="images/logo-kickstart-scheme.png" />
+        </div>
+        <div class="cardUSPText">
+          <p>
+            We are collaborating with UK government’s Kickstart scheme to create
+            six new roles for 16-24 years old, to assist with our organic
+            growth.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myNavigation");
+        if (x.className === "navigation") {
+          x.className += " responsive";
+        } else {
+          x.className = "navigation";
+        }
+      }
+    </script>
+  </body>
+</html>

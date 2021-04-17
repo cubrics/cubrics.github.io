@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta
+      charset="UTF-8"
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+    <title>Cubrics - About</title>
+    <link rel="stylesheet" type="text/css" href="./stylesheet.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="navigation" id="myNavigation">
+        <a href="https://www.cubrics.co.uk"
+          ><img src="images/logo.png" alt="cubrics logo"
+        /></a>
+        <div class="navigationItems">
+          <div>
+            <a class="navigationButton" href="services.html">Services</a>
+          </div>
+          <div>
+            <a class="navigationButton" href="industries.html">Industries</a>
+          </div>
+          <div>
+            <a class="navigationButton" href="insights.html">Insights</a>
+          </div>
+          <div><a class="navigationButton" href="careers.html">Careers</a></div>
+          <div><a class="navigationButton" href="about.html">About</a></div>
+          <div class="navigationCta">
+            <a href="mailto:margaret.khor@cubrics.co.uk"
+              ><button class="primaryButton">Contact</button></a
+            >
+          </div>
+          <a href="javascript:void(0);" onclick="myFunction()"
+            ><span class="material-icons navigationHamburger">menu</span></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="herobanner">
+      <img src="images/hero-banner-shiny-building.png" />
+      <div class="herobannerTextbox">
+        <div class="herobannerText">About</div>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="paragraph">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet
+          massa vitae tortor condimentum lacinia quis vel. Nulla malesuada
+          pellentesque elit eget gravida cum sociis. Sit amet facilisis magna
+          etiam tempor orci.
+        </p>
+      </div>
+
+      <div class="cards">
+        <div class="cardUSP">
+          <div class="cardUSPIcon">
+            <span class="material-icons md-64">trending_up</span>
+            <h5>Value</h5>
+          </div>
+          <div class="cardUSPText">
+            <p>
+              Our purpose is to realise our client’s business value by
+              delivering high quality results, at a faster pace and lowering
+              your transformation costs.
+            </p>
+          </div>
+        </div>
+        <hr class="dividerCard" />
+        <div class="cardUSP">
+          <div class="cardUSPIcon">
+            <span class="material-icons md-64">support</span>
+            <h5>Transparency</h5>
+          </div>
+          <div class="cardUSPText">
+            <p>
+              We are passionate and transparent in our aim to address the
+              biggest taboo in IT projects; a fact that 70% of business
+              transformation failed to deliver better performance. With such
+              staggering statistic, we pride ourselves to partner and solve your
+              business problems under the most challenging environments.
+            </p>
+          </div>
+        </div>
+        <hr class="dividerCard" />
+        <div class="cardUSP">
+          <div class="cardUSPIcon">
+            <span class="material-icons md-64">people</span>
+            <h5>People</h5>
+          </div>
+          <div class="cardUSPText">
+            <p>
+              The success of your transformation is predominantly driven by the
+              engagement from your employees. Our talent can work with you to
+              address the design, delivery & adoption rate of digital
+              transformations. Our methodologies have been tried & tested across
+              nearly 50 countries in 5 continents. Explore the possibilities to
+              accelerate with us.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-dark">
+        <div class="contentHeader"><h3>Our Clients</h3></div>
+        <div class="logoClients logoClient">
+          <img
+            class="logoClient"
+            src="images/logo-arriva.png"
+            alt="arriva logo"
+          />
+          <img class="logoClient" src="images/logo-gsk.png" alt="gsk logo" />
+          <img
+            class="logoClient"
+            src="images/logo-shell.png"
+            alt="shell logo"
+          />
+          <img class="logoClient" src="images/logo-sky.png" alt="sky logo" />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myNavigation");
+        if (x.className === "navigation") {
+          x.className += " responsive";
+        } else {
+          x.className = "navigation";
+        }
+      }
+    </script>
+  </body>
+</html>

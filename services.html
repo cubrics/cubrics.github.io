@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta
+      charset="UTF-8"
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+    <title>Cubrics - About</title>
+    <link rel="stylesheet" type="text/css" href="./stylesheet.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="navigation" id="myNavigation">
+        <a href="https://www.cubrics.co.uk"
+          ><img src="images/logo.png" alt="cubrics logo"
+        /></a>
+        <div class="navigationItems">
+          <div>
+            <a class="navigationButton" href="services.html">Services</a>
+          </div>
+          <div>
+            <a class="navigationButton" href="industries.html">Industries</a>
+          </div>
+          <div>
+            <a class="navigationButton" href="insights.html">Insights</a>
+          </div>
+          <div><a class="navigationButton" href="careers.html">Careers</a></div>
+          <div><a class="navigationButton" href="about.html">About</a></div>
+          <div class="navigationCta">
+            <a href="mailto:contact@cubrics.co.uk"
+              ><button class="primaryButton">Contact</button></a
+            >
+          </div>
+          <a href="javascript:void(0);" onclick="myFunction()"
+            ><span class="material-icons navigationHamburger">menu</span></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="herobanner">
+      <img src="images/hero-banner-shiny-building.png" />
+      <div class="herobannerTextbox">
+        <div class="herobannerText">Services</div>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="contentHeader"></div>
+      <div class="card">
+        <div class="cardHorizontal">
+          <img
+            src="images/services-ppm.svg"
+            alt="project with different tasks"
+          />
+          <div class="cardHorizontalParagraph">
+            <h5>Project and programme management</h5>
+            <p>
+              Companies are continuously transforming their organization to stay
+              competitive. At Cubrics, our structured methodologies equip you to
+              plan and execute your projects by leveraging our knowledge, tools
+              and expertise gained from consulting with blue-chip brands. Our
+              tailored solutions focuses on the drivers of value which
+              accelerates delivery balanced by an on-demand support model which
+              reduces your consultancy costs.
+            </p>
+          </div>
+        </div>
+        <div class="cardHorizontal">
+          <img
+            src="images/services-transformational-change.svg"
+            alt="woman with large clock"
+          />
+          <div class="cardHorizontalParagraph">
+            <h5>Transformational change</h5>
+            <p>
+              Technology alone is not sufficient to drive change. The technology
+              fused with humanities and curiosity leads the way to adopting the
+              change in culture, behaviour and attitude. At Cubrics, we drive
+              these changes throughout the value chain by addressing the
+              capability gap in employees and utilizing our modern communication
+              techniques to embed changes for your suppliers and customers. The
+              combination of our latest cognitive psychology insight is also
+              paving the way for corporate visionaries to drive change.
+            </p>
+          </div>
+        </div>
+        <div class="cardHorizontal">
+          <img
+            src="images/services-effective-workshops.svg"
+            alt="people on a conference call"
+          />
+          <div class="cardHorizontalParagraph">
+            <h5>Effective workshops</h5>
+            <p>
+              Our complimentary workshops address some of the top key issues
+              faced when companies embark on project work. We explore the basic
+              essentials required for a successful delivery tailored to your
+              company’s needs and engaging with your chosen attendees.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contentHeader"><h3>What we deliver</h3></div>
+
+      <div class="cardBlocks">
+        <div class="cardBlock">
+          <span class="material-icons md-64">business</span>
+          <p>
+            We use our frameworks to transform your business to the new age of
+            technology through better customer interactions.
+          </p>
+        </div>
+        <div class="cardBlock">
+          <span class="material-icons md-64">insights</span>
+          <p>
+            We provide high quality strategic insights & tactical guides with
+            agility.
+          </p>
+        </div>
+        <div class="cardBlock">
+          <span class="material-icons md-64">track_changes</span>
+          <p>
+            We reduce the burden of change to realise value faster and cheaper.
+          </p>
+        </div>
+      </div>
+      <div class="cardBlocks">
+        <div class="cardBlock">
+          <span class="material-icons md-64">admin_panel_settings</span>
+          <p>
+            We minimise disruptions to your business operations during the
+            change.
+          </p>
+        </div>
+        <div class="cardBlock">
+          <span class="material-icons md-64">fact_check</span>
+          <p>
+            We tailor our solution to focus on your project outcomes to meet
+            your operational KPI’s.
+          </p>
+        </div>
+        <div class="cardBlock">
+          <span class="material-icons md-64">groups</span>
+          <p>
+            We collaborate with your departments to get buy-in, trust and gain
+            traction for success.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myNavigation");
+        if (x.className === "navigation") {
+          x.className += " responsive";
+        } else {
+          x.className = "navigation";
+        }
+      }
+    </script>
+  </body>
+</html>
