@@ -89,6 +89,8 @@ h4,
 h5,
 h6,
 p,
+ol,
+li,
 .herobannerText {
   font-family: "prompt", Calibri, sans-serif;
   color: #363636;
