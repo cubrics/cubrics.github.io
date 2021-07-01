@@ -22,11 +22,11 @@ body {
 .content-dark {
   max-width: 1024px;
   margin: auto;
-  padding: 0px 48px;
+  padding: 0px 8px;
   background-color: #efefef;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 4048px) {
   .container {
     padding: 24px 24px 16px 24px;
   }
