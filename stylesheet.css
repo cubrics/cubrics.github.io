@@ -148,6 +148,31 @@ p, ol, li {
   margin-top: 16px;
 }
 
+.material-icons.md-67 {
+  font-size: 64px;
+  color: #093f7c;
+  margin-bottom: 4px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 16px;
+}
+
+.material-icons.md-65 {
+  font-size: 64px;
+  color: #f29100;
+  margin-bottom: 4px;
+  margin-left: 120px;
+  margin-top: 16px;
+}
+
+.material-icons.md-66 {
+  font-size: 64px;
+  color: #093f7c;
+  margin-bottom: 4px;
+  margin-left: 4px;
+  margin-top: 16px;
+}
+
 /* Buttons */
 .primaryButton {
   font-family: "prompt", Calibri, sans-serif;
@@ -229,6 +254,11 @@ p, ol, li {
   padding-left: 32px;
 }
 
+.cardHorizontalParagraphWide {
+  width: 100%;
+  padding-left: 32px;
+}
+
 .cardHorizontalParagraph h5 {
   color: #1f7fd1;
   padding-bottom: 16px;
@@ -306,7 +336,7 @@ p, ol, li {
 /* Headings */
 .contentHeader {
   text-align: center;
-  padding: 48px 0px 16px 0px;
+  padding: 48px 0px 2px 0px;
 }
 
 .contentHeader2 h5{
@@ -319,6 +349,18 @@ p, ol, li {
   color: #1f7fd1;
   text-align: center;
   padding: 24px 0px 0px 0px;
+}
+
+.contentHeader4 h5 {
+  color: #32403f;
+  text-align: left;
+  padding: 30px 0px 2px 0px;
+}
+
+.contentHeader5 h5 {
+  color: #32403f;
+  text-align: left;
+  padding: 40px 0px 2px 0px;
 }
 
 .contentHeader3 h4{
